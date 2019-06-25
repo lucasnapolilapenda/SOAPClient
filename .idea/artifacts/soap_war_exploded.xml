@@ -1,0 +1,35 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="soap:war exploded">
+    <output-path>$PROJECT_DIR$/../SoapAssingmentBack/target/soap-0.0.1-SNAPSHOT</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>soap</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="soap" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.xml.ws:jaxws-api:2.3.1" />
+          <element id="library" level="project" name="Maven: javax.xml.stream:stax-api:1.0-2" />
+          <element id="library" level="project" name="Maven: relaxngDatatype:relaxngDatatype:20020414" />
+          <element id="library" level="project" name="Maven: org.glassfish.gmbal:gmbal-api-only:3.1.0-b001" />
+          <element id="library" level="project" name="Maven: org.glassfish.external:management-api:3.0.0-b012" />
+          <element id="library" level="project" name="Maven: org.jvnet.staxex:stax-ex:1.7.1" />
+          <element id="library" level="project" name="Maven: org.jvnet.mimepull:mimepull:1.9.1" />
+          <element id="library" level="project" name="Maven: org.glassfish.ha:ha-api:3.1.9" />
+          <element id="library" level="project" name="Maven: org.codehaus.woodstox:woodstox-core-asl:4.1.2" />
+          <element id="library" level="project" name="Maven: org.codehaus.woodstox:stax2-api:3.1.1" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/../SoapAssingmentBack/target/soap-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="soap/web/Web" />
+    </root>
+  </artifact>
+</component>
