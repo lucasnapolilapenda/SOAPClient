@@ -105,10 +105,9 @@ public class ClientRequests {
     }
 
     public void help() throws MalformedURLException {
-        System.out.println ( "***** Welcome to Solo's Library System *****" );
+        System.out.println ( "***** Welcome to Solo's Library System Version SOAP *****" );
         System.out.println (    "\n In this System you can search, add and delete books. " +
-                "\n Additionally, you can work remotely with web services, you " +
-                "\n should be sure that TomCat is running and be sure all dependencies installed" +
+                "\n Additionally, you can work remotely with SOAP services, you " +
                 "\n Thanks for using Lucas Software and enjoy it" );
 
         System.out.println ( "Please, type any KEY to come back to the Menu" );
