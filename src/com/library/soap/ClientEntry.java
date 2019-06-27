@@ -1,11 +1,18 @@
 package com.library.soap;
-
+/** Library Solos Rest.
+ * @author Lucas Napoli
+ * @author https://github.com/lucasnapolilapenda/SOAPClient
+ * @version 1.1
+ * @since 1.0
+ */
 
 import java.net.MalformedURLException;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
 
+/**Starting Point
+ */
 public class ClientEntry {
   public static void main(String[] argv) throws MalformedURLException {
 
@@ -13,6 +20,12 @@ public class ClientEntry {
 
 
     }
+
+    /**Display the menu. This starts when the app load
+     * @throws NumberFormatException manage Integer input
+     * @throws InputMismatchException manage Integer input
+     * @throws MalformedURLException Manage URL error
+     */
 
     public static void showMenu() throws MalformedURLException {
         try {
